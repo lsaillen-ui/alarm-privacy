@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alarm – Politique de confidentialité</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1b1e2c; --muted: #5d6275; --line: #e3e5ec; --accent: #0a6fd6; color-scheme: light dark; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #111218; --fg: #eceef6; --muted: #a2a6ba; --line: #2b2e3c; --accent: #5aa9ff; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+  nav { display: flex; gap: .75rem; font-size: .95rem; margin-bottom: 2rem; }
+  nav a { color: var(--accent); }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .25rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; }
+  .updated { color: var(--muted); margin: 0 0 1.5rem; }
+  .summary { border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.25rem; }
+  section.lang { border-top: 1px solid var(--line); margin-top: 3.5rem; padding-top: 2rem; }
+  section.lang:first-of-type { border-top: 0; margin-top: 0; padding-top: 0; }
+  ul { padding-left: 1.25rem; }
+  code { font-size: .9em; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<nav aria-label="Langue"><a href="#fr">Français</a><a href="#en">English</a><a href="#de">Deutsch</a></nav>
+
+<!-- ============================ FRANÇAIS ============================ -->
+<section class="lang" id="fr" lang="fr">
+<h1>Politique de confidentialité d'Alarm</h1>
+<p class="updated">Dernière mise à jour : 30 septembre 2026</p>
+
+<div class="summary">
+<p><strong>En bref :</strong> Alarm ne collecte aucune donnée. Tout ce que l'app enregistre reste sur votre iPhone. Il n'y a ni compte, ni publicité, ni outil de mesure d'audience, ni suivi. Les développeurs n'ont accès à aucune de vos données.</p>
+</div>
+
+<h2>Responsable</h2>
+<p>Romain Saudan, cofondateur d'Alarm, Suisse.<br>Contact : <a href="mailto:romsaudan@icloud.com">romsaudan@icloud.com</a></p>
+
+<h2>Données enregistrées sur votre iPhone</h2>
+<p>Pour fonctionner, l'app enregistre localement, dans son espace de stockage sur l'iPhone :</p>
+<ul>
+<li>vos alarmes et leurs réglages (heure, jours, défi, sonnerie, automatisations) ;</li>
+<li>vos programmes de sommeil et votre objectif de sommeil ;</li>
+<li>l'historique de vos réveils (date, défi, résultat, durée) et les statistiques qui en découlent ;</li>
+<li>le prénom et le nom que vous saisissez, si vous le faites, dans le profil ;</li>
+<li>l'identifiant du tag NFC, du QR code ou du code-barres que vous appairez à un défi ;</li>
+<li>les sons que vous importez vous-même.</li>
+</ul>
+<p>Ces données ne sont transmises ni aux développeurs ni à un tiers. Elles peuvent figurer dans les sauvegardes de votre iPhone (iCloud ou ordinateur), selon vos propres réglages d'Apple.</p>
+
+<h2>Caméra</h2>
+<p>La caméra sert uniquement pendant un défi : compter des pompes, suivre un mouvement, ou lire un QR code ou un code-barres. Les images sont analysées en direct sur l'iPhone. Aucune image ni vidéo n'est enregistrée ou transmise.</p>
+
+<h2>NFC</h2>
+<p>Le lecteur NFC sert à vérifier que vous scannez le tag appairé. Seul son identifiant est gardé sur l'iPhone.</p>
+
+<h2>Santé (Apple Health)</h2>
+<p>Si vous l'autorisez, l'app <strong>lit</strong> vos données de sommeil dans l'app Santé pour les comparer à votre programme (7 dernières nuits). Cette lecture est facultative : l'app fonctionne entièrement sans.</p>
+<ul>
+<li>L'app n'écrit jamais dans Santé.</li>
+<li>Les données de sommeil sont lues à l'affichage et ne sont ni enregistrées par l'app, ni transmises, ni synchronisées avec iCloud.</li>
+<li>Elles ne servent à aucune publicité, ni à aucun autre usage que l'affichage dans l'app.</li>
+</ul>
+<p>Vous pouvez retirer cet accès à tout moment dans Réglages &gt; Santé &gt; Accès aux données et appareils &gt; Alarm.</p>
+
+<h2>Alarmes et notifications</h2>
+<p>Les alarmes et le rappel du coucher sont planifiés par iOS sur votre iPhone. Aucun serveur n'intervient.</p>
+
+<h2>Automatisations que vous configurez</h2>
+<p>Si vous indiquez une adresse de webhook dans une alarme, l'app envoie à cette adresse, et à elle seule, quand vous arrêtez l'alarme depuis l'app (défi réussi ou sortie de secours) : l'identifiant et le libellé de l'alarme, le type de défi, le résultat, la durée pour y parvenir, le nombre de répétitions et la date. C'est vous qui choisissez cette adresse, en général votre propre serveur domotique. Les développeurs n'y ont pas accès. Sans adresse, rien n'est envoyé.</p>
+<p>Si vous indiquez un raccourci, l'app demande à l'app Raccourcis d'Apple de le lancer sur votre iPhone.</p>
+<p>L'accès au réseau local sert uniquement à joindre un serveur de votre propre réseau par ce webhook.</p>
+
+<h2>Ce que l'app ne fait pas</h2>
+<ul>
+<li>Pas de compte ni d'inscription.</li>
+<li>Pas de publicité, pas de suivi entre apps ou sites, pas d'outil d'analyse ni de rapport de plantage envoyé aux développeurs.</li>
+<li>Pas de vente ni de partage de données.</li>
+</ul>
+
+<h2>Conservation et suppression</h2>
+<p>Les données restent sur l'iPhone tant que l'app est installée. Vous pouvez supprimer une alarme ou un programme dans l'app. Supprimer l'app efface toutes ses données de l'iPhone.</p>
+
+<h2>Enfants</h2>
+<p>L'app ne s'adresse pas spécifiquement aux enfants et ne collecte de données de personne, quel que soit son âge.</p>
+
+<h2>Vos droits</h2>
+<p>Les développeurs ne détenant aucune donnée vous concernant, vous gardez la maîtrise complète de vos données sur votre iPhone. Pour toute question relative à la protection des données (loi fédérale sur la protection des données, nLPD, et, le cas échéant, RGPD), écrivez à l'adresse ci-dessus. Vous pouvez aussi vous adresser au Préposé fédéral à la protection des données et à la transparence (PFPDT).</p>
+
+<h2>Modifications</h2>
+<p>Si cette politique change, la nouvelle version est publiée sur cette page, avec sa date de mise à jour.</p>
+</section>
+
+<!-- ============================ ENGLISH ============================ -->
+<section class="lang" id="en" lang="en">
+<h1>Alarm Privacy Policy</h1>
+<p class="updated">Last updated: 30 September 2026</p>
+
+<div class="summary">
+<p><strong>In short:</strong> Alarm collects no data. Everything the app stores stays on your iPhone. There is no account, no advertising, no analytics and no tracking. The developers have no access to any of your data.</p>
+</div>
+
+<h2>Controller</h2>
+<p>Romain Saudan, co-founder of Alarm, Switzerland.<br>Contact: <a href="mailto:romsaudan@icloud.com">romsaudan@icloud.com</a></p>
+
+<h2>Data stored on your iPhone</h2>
+<p>To work, the app stores locally, in its own storage on your iPhone:</p>
+<ul>
+<li>your alarms and their settings (time, days, challenge, sound, automations);</li>
+<li>your sleep schedules and sleep goal;</li>
+<li>your wake-up history (date, challenge, result, duration) and the statistics derived from it;</li>
+<li>the first and last name you enter in the profile, if you do;</li>
+<li>the identifier of the NFC tag, QR code or barcode you pair with a challenge;</li>
+<li>the sounds you import yourself.</li>
+</ul>
+<p>This data is not sent to the developers or to any third party. It may be included in your iPhone backups (iCloud or computer), depending on your own Apple settings.</p>
+
+<h2>Camera</h2>
+<p>The camera is used only during a challenge: counting push-ups, following a movement, or reading a QR code or barcode. Images are analysed live on the iPhone. No image or video is recorded or sent.</p>
+
+<h2>NFC</h2>
+<p>The NFC reader checks that you scan the paired tag. Only its identifier is kept on the iPhone.</p>
+
+<h2>Health (Apple Health)</h2>
+<p>If you allow it, the app <strong>reads</strong> your sleep data from the Health app to compare it with your schedule (last 7 nights). This is optional: the app works fully without it.</p>
+<ul>
+<li>The app never writes to Health.</li>
+<li>Sleep data is read for display only; it is not stored by the app, sent anywhere, or synced with iCloud.</li>
+<li>It is never used for advertising or for any purpose other than display in the app.</li>
+</ul>
+<p>You can remove this access at any time in Settings &gt; Health &gt; Data Access &amp; Devices &gt; Alarm.</p>
+
+<h2>Alarms and notifications</h2>
+<p>Alarms and the bedtime reminder are scheduled by iOS on your iPhone. No server is involved.</p>
+
+<h2>Automations you set up</h2>
+<p>If you enter a webhook address in an alarm, when you stop the alarm from the app (challenge completed or emergency exit), the app sends to that address, and to that address only: the alarm's identifier and label, the challenge type, the result, the time taken, the number of repetitions and the date. You choose this address, usually your own home automation server. The developers have no access to it. Without an address, nothing is sent.</p>
+<p>If you enter a shortcut, the app asks Apple's Shortcuts app to run it on your iPhone.</p>
+<p>Local network access is used only to reach a server on your own network through this webhook.</p>
+
+<h2>What the app does not do</h2>
+<ul>
+<li>No account or sign-up.</li>
+<li>No advertising, no tracking across apps or websites, no analytics or crash reports sent to the developers.</li>
+<li>No selling or sharing of data.</li>
+</ul>
+
+<h2>Retention and deletion</h2>
+<p>Data stays on the iPhone while the app is installed. You can delete an alarm or a schedule in the app. Deleting the app erases all its data from the iPhone.</p>
+
+<h2>Children</h2>
+<p>The app is not specifically aimed at children and collects no data from anyone, whatever their age.</p>
+
+<h2>Your rights</h2>
+<p>As the developers hold no data about you, you keep full control of your data on your iPhone. For any data protection question (Swiss Federal Act on Data Protection and, where applicable, the GDPR), write to the address above. You may also contact the Swiss Federal Data Protection and Information Commissioner (FDPIC) or your local supervisory authority.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version is published on this page with its update date.</p>
+</section>
+
+<!-- ============================ DEUTSCH ============================ -->
+<section class="lang" id="de" lang="de">
+<h1>Datenschutzerklärung von Alarm</h1>
+<p class="updated">Zuletzt aktualisiert: 30. September 2026</p>
+
+<div class="summary">
+<p><strong>Kurz gesagt:</strong> Alarm erhebt keine Daten. Alles, was die App speichert, bleibt auf Ihrem iPhone. Es gibt kein Konto, keine Werbung, keine Analysewerkzeuge und kein Tracking. Die Entwickler haben keinen Zugriff auf Ihre Daten.</p>
+</div>
+
+<h2>Verantwortlicher</h2>
+<p>Romain Saudan, Mitgründer von Alarm, Schweiz.<br>Kontakt: <a href="mailto:romsaudan@icloud.com">romsaudan@icloud.com</a></p>
+
+<h2>Auf Ihrem iPhone gespeicherte Daten</h2>
+<p>Damit sie funktioniert, speichert die App lokal in ihrem eigenen Speicher auf dem iPhone:</p>
+<ul>
+<li>Ihre Wecker und deren Einstellungen (Uhrzeit, Tage, Aufgabe, Klingelton, Automatisierungen);</li>
+<li>Ihre Schlafpläne und Ihr Schlafziel;</li>
+<li>Ihren Weckverlauf (Datum, Aufgabe, Ergebnis, Dauer) und die daraus berechneten Statistiken;</li>
+<li>den Vor- und Nachnamen, den Sie im Profil eingeben, falls Sie das tun;</li>
+<li>die Kennung des NFC-Tags, QR-Codes oder Strichcodes, den Sie einer Aufgabe zuordnen;</li>
+<li>die Töne, die Sie selbst importieren.</li>
+</ul>
+<p>Diese Daten werden weder an die Entwickler noch an Dritte übermittelt. Sie können je nach Ihren Apple-Einstellungen in den Backups Ihres iPhones (iCloud oder Computer) enthalten sein.</p>
+
+<h2>Kamera</h2>
+<p>Die Kamera wird nur während einer Aufgabe verwendet: Liegestütze zählen, einer Bewegung folgen oder einen QR-Code oder Strichcode lesen. Die Bilder werden direkt auf dem iPhone ausgewertet. Es wird kein Bild und kein Video gespeichert oder übertragen.</p>
+
+<h2>NFC</h2>
+<p>Das NFC-Lesegerät prüft, ob Sie den zugeordneten Tag scannen. Nur dessen Kennung wird auf dem iPhone gespeichert.</p>
+
+<h2>Health (Apple Health)</h2>
+<p>Wenn Sie es erlauben, <strong>liest</strong> die App Ihre Schlafdaten aus der Health-App, um sie mit Ihrem Plan zu vergleichen (letzte 7 Nächte). Das ist freiwillig: Die App funktioniert auch ohne.</p>
+<ul>
+<li>Die App schreibt nie in Health.</li>
+<li>Die Schlafdaten werden nur zur Anzeige gelesen; sie werden von der App weder gespeichert noch übertragen noch mit iCloud synchronisiert.</li>
+<li>Sie dienen weder der Werbung noch einem anderen Zweck als der Anzeige in der App.</li>
+</ul>
+<p>Sie können diesen Zugriff jederzeit unter Einstellungen &gt; Health &gt; Datenzugriff &amp; Geräte &gt; Alarm widerrufen.</p>
+
+<h2>Wecker und Mitteilungen</h2>
+<p>Wecker und die Schlafenszeit-Erinnerung werden von iOS auf Ihrem iPhone geplant. Es ist kein Server beteiligt.</p>
+
+<h2>Von Ihnen eingerichtete Automatisierungen</h2>
+<p>Wenn Sie bei einem Wecker eine Webhook-Adresse angeben, sendet die App beim Beenden des Weckers in der App (Aufgabe erfüllt oder Notausgang) an diese Adresse, und nur an diese: Kennung und Bezeichnung des Weckers, Art der Aufgabe, Ergebnis, benötigte Zeit, Anzahl der Wiederholungen und Datum. Sie wählen diese Adresse selbst, meist Ihren eigenen Smart-Home-Server. Die Entwickler haben keinen Zugriff darauf. Ohne Adresse wird nichts gesendet.</p>
+<p>Wenn Sie einen Kurzbefehl angeben, bittet die App die Kurzbefehle-App von Apple, ihn auf Ihrem iPhone auszuführen.</p>
+<p>Der Zugriff auf das lokale Netzwerk dient nur dazu, über diesen Webhook einen Server in Ihrem eigenen Netzwerk zu erreichen.</p>
+
+<h2>Was die App nicht tut</h2>
+<ul>
+<li>Kein Konto, keine Registrierung.</li>
+<li>Keine Werbung, kein Tracking über Apps oder Websites hinweg, keine Analyse und keine Absturzberichte an die Entwickler.</li>
+<li>Kein Verkauf und keine Weitergabe von Daten.</li>
+</ul>
+
+<h2>Aufbewahrung und Löschung</h2>
+<p>Die Daten bleiben auf dem iPhone, solange die App installiert ist. Sie können Wecker und Schlafpläne in der App löschen. Wenn Sie die App löschen, werden alle ihre Daten vom iPhone entfernt.</p>
+
+<h2>Kinder</h2>
+<p>Die App richtet sich nicht speziell an Kinder und erhebt von niemandem Daten, unabhängig vom Alter.</p>
+
+<h2>Ihre Rechte</h2>
+<p>Da die Entwickler keine Daten über Sie besitzen, behalten Sie die volle Kontrolle über Ihre Daten auf Ihrem iPhone. Bei Fragen zum Datenschutz (Schweizer Datenschutzgesetz, revDSG, und gegebenenfalls DSGVO) schreiben Sie an die obige Adresse. Sie können sich auch an den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) oder an Ihre zuständige Aufsichtsbehörde wenden.</p>
+
+<h2>Änderungen</h2>
+<p>Ändert sich diese Erklärung, wird die neue Fassung mit ihrem Datum auf dieser Seite veröffentlicht.</p>
+</section>
+</main>
+</body>
+</html>
